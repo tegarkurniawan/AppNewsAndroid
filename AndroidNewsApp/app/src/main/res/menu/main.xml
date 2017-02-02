@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Refresh -->
+    <item android:id="@+id/refresh"
+        android:title="@string/refresh"
+        app:showAsAction="never"/>
+
+    <!-- Favorite App -->
+    <item android:id="@+id/menu_favorite"
+        android:title="@string/menu_favorite"
+        app:showAsAction="never"/>
+
+    <!-- Rate App -->
+    <item android:id="@+id/menu_rateapp"
+        android:title="@string/menu_rateapp"
+        app:showAsAction="never"/>
+
+    <!-- More App -->
+    <item android:id="@+id/menu_moreapp"
+        android:title="@string/menu_moreapp"
+        app:showAsAction="never"/>
+
+    <!-- About -->
+    <item android:id="@+id/menu_about"
+        android:title="@string/menu_about"
+        app:showAsAction="never"/>
+
+</menu>

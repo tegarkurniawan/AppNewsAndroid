@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ColorPrimary">#0288D1</color>
+    <color name="ColorPrimaryDark">#448AFF</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="tabsScrollColor">#004D40</color>
+
+    <color name="background_color">#f2f2f2</color>
+    <color name="divider">#f2f2f2</color>
+    <color name="text_color">#525252</color>
+    <color name="heading_bg">#272727</color>
+    <color name="heading_text_color">#ebebeb</color>
+    
+    <color name="list_item_title">#909090</color>
+    <color name="list_background">#fff</color>
+    <color name="list_background_pressed">#ebebeb</color>
+    <color name="list_divider">#B0B0B0</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    
+    <color name="white">#ffffff</color>
+
+    <color name="myPrimaryColor">#00BCD4</color>
+    <color name="myPrimaryDarkColor">#0097A7</color>
+    <color name="myAccentColor">#CDDC39</color>
+    <color name="myDrawerBackground">#FFF</color>
+    <color name="myWindowBackground">#FFFFFF</color>
+    <color name="myTextPrimaryColor">#212121</color>
+    <color name="myNavigationColor">#000000</color>
+
+    <color name="selected_gray">#ffdbdbdb</color>
+
+</resources>

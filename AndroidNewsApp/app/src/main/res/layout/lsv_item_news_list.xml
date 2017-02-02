@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_list_row"
+        android:orientation="horizontal" >
+
+        <com.solodroid.androidnewsapp.RoundedImageView
+            android:id="@+id/img_newslist"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="centerCrop"
+            app:border_color="@color/divider"
+            app:border_width="0dip"
+            app:is_oval="true"
+            app:round_background="true"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/txt_newslistheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:text="Heading"/>
+
+            <TextView
+                android:id="@+id/txt_newslistdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/text_color"
+                android:text="Date"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

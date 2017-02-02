@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    
+    <ListView
+        android:id="@+id/lsv_favorite"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/tool_bar"
+        android:layout_above="@+id/adView">
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/img_no"
+        android:visibility="gone"
+        android:textColor="@color/text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_publisher_id" />
+
+</RelativeLayout>
